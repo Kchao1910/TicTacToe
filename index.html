@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Web game for tictactoe">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <title>TicTacToe</title>
+</head>
+<body>
+  <main>
+    <!-- Scoreboard -->
+    <section class="grid grid-col-3">
+      <span id="choice" value="X"></span>
+      <h1 class="game-name">TicTacToe</h1>
+      <section class="scoreboard player1-label">
+        <p>Player 1</p>
+        <p id="player1-score">0</p>
+      </section>
+      <section class="reset-game">
+        <a class="reset-button" onclick="resetGame()">Reset Game</a>
+      </section>
+      <section id="message"></section>
+      <section class="scoreboard player2-label">
+        <p>Player 2</p>
+        <p id="player2-score">0</p>
+      </section>
+      <section id="1" class="col-1 row-4 choice-wrapper"></section>
+      <section id="2" class="row-4 choice-wrapper"></section>
+      <section id="3" class="row-4 choice-wrapper"></section>
+      <section id="4" class="col-1 row-5 choice-wrapper"></section>
+      <section id="5" class="row-5 choice-wrapper"></section>
+      <section id="6" class="row-5 choice-wrapper"></section>
+      <section id="7" class="col-1 row-6 choice-wrapper"></section>
+      <section id="8" class="row-6 choice-wrapper"></section>
+      <section id="9" class="row-6 choice-wrapper"></section>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
