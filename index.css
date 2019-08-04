@@ -19,6 +19,17 @@ html {
 }
 
 /*
+  Colors 
+*/
+.deep-pink {
+  color: deeppink;
+}
+
+.deep-skyblue {
+  color: deepskyblue;
+}
+
+/*
   Border Styles
 */
 .col-1 {
