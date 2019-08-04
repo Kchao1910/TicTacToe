@@ -66,6 +66,10 @@ function determineCombination() {
     return;
   }
 
+  if (player1Turns === 5) {
+    message.textContent = "Tie!"
+  }
+
   if (player1Turns !== player2Turns) {
     determineWinner(player1Choices, "Player 1");
   }
